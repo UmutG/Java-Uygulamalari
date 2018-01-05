@@ -1,6 +1,9 @@
 package ornekler;
-public class �rnek06 {
+public class Örnek06 {
 	public static void main(String[] args) {
+		/*1’den 1000’e kadar olan sayılar içerisinde 5’e tam bölunebilen aynı zamanda 7’ye tam bölünemeyen sayıları sayan, 
+		toplamlarını hesaplayan ve bu sayıları listeleyen bir program yazınız*/
+		
 		int top=0, bes=0, yedi=0, ikisi=0;
 		for(int i=1; i<=1000; i++)
 		{
@@ -15,7 +18,7 @@ public class �rnek06 {
 				top+=i;
 			}
 		}
-		System.out.println("Toplam = " + top + ". Be�e tam b�l�nenler = " + bes + " tane. Yediye tam b�l�nemeyenler = " + yedi + " tane. \n"
-				+ "Be�e tam b�l�n�p yediye tam b�l�nemeyenlerin say�s�: " + ikisi);
+		System.out.println("Toplam = " + top + ". Beþe tam bölünenler = " + bes + " tane. Yediye tam bölünemeyenler = " + yedi + " tane. \n"
+				+ "Beþe tam bölünüp yediye tam bölünemeyenlerin sayýsý: " + ikisi);
 	}
 }
