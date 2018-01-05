@@ -5,10 +5,10 @@ public class Örnek01 {
 	{
 		//Klavyeden 15 sayısı girilene kadar sayıları toplayan program
 		Scanner tara = new Scanner(System.in);
-		int i=0, top=0;
+		double i=0, top=0;
 		do {
 			System.out.print("Sayıyı giriniz: ");
-			i = tara.nextInt();
+			i = tara.nextDouble();
 			top += i;
 		}
 		while (i!=15);
