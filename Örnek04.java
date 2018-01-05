@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Örnek04 {
 	public static void main(String[] args) {
 		//Klavyeden girilen üç basamaklı sayının rakamları çarpımının, rakamları toplamına bölümünden kalanı bulan program
+		//Negatif hesaplamasını daha sonra ekleyeceğim
 		int sayi, yuzler, onlar, birler;
 		Scanner tara = new Scanner(System.in);
 			do {
