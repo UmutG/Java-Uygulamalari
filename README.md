@@ -1,3 +1,4 @@
 # JavaUygulamalar
-Finale hazırlık:
-30'dan fazla soru ve cevaplarıyla Java uygulamaları atmaya çalışacağım.
+**Finale hazırlık:**
+30'dan fazla soruları cevaplarıyla buraya atmaya çalışacağım.
+Umarım işinize yarar :).
