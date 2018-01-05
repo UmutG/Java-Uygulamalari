@@ -1,4 +1,4 @@
-package ders1;
+package ornekler;
 import java.util.Scanner;
 public class d11 {
 	public static void main(String[] args) {
