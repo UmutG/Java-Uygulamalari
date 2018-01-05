@@ -1,15 +1,15 @@
 package ornekler;
 import java.util.Scanner;
-public class Örnek09 {
+public class Ã–rnek09 {
 	public static void main(String[] args) {
-		//Klavyeden girilen sayının tek mi çift mi olduğunu belirten programı
-		Scanner tara = new Scanner(System.in);
-		System.out.print("Sayınızı giriniz: ");
+		//Klavyeden girilen sayÄ±nÄ±n tek mi Ã§ift mi olduÄŸunu belirten program
+		Scanner tara = new Scanner(System.in)
+		System.out.print("SayÄ±nÄ±zÄ± giriniz: ");
 		int a = tara.nextInt();
 		tara.close();
 		if(a%2==0)
-			System.out.print("Sayı çifttir.");
+			System.out.print("SayÄ± Ã§ifttir.");
 		else
-			System.out.print("Sayı tektir.");
+			System.out.print("SayÄ± tektir.");
 	}
 }
