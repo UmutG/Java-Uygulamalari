@@ -1,14 +1,12 @@
 package ders1;
 import java.util.Scanner;
-
 public class d11 {
-
 	public static void main(String[] args) {
-		//Sayı ve üssünü alıp sonucu yazan program
+		//SayÄ± ve Ã¼ssÃ¼nÃ¼ alÄ±p sonucu yazan program
 		int a,b;
 		double c=1;
 		Scanner tara = new Scanner(System.in);
-		System.out.print("Sayı giriniz: ");
+		System.out.print("SayÃ½ giriniz: ");
 		a = tara.nextInt();
 		System.out.print("Kuvvetini giriniz: ");
 		b = tara.nextInt();
@@ -17,14 +15,12 @@ public class d11 {
 		{
 			if (b==0)
 			{
-				System.out.print(a + " üssü 0 = 1");
+				System.out.print(a + " Ã¼ssÃ¼ 0 = 1");
 				break;
 			}
 			else
 				c = c*a;
 		}
-		System.out.print(a + " üssü " + b + " = " + c);
-		
+		System.out.print(a + " Ã¼ssÃ¼ " + b + " = " + c);	
 	}
-
 }
