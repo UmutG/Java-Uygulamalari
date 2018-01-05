@@ -1,16 +1,17 @@
 package ornekler;
 import java.util.Scanner;
-public class Örnek10 {
+public class Ã–rnek10 {
 	public static void main(String[] args) {
 		{
+			//AdÄ± ve soyadÄ± girilen kiÅŸinin baÅŸ harflerini ekrana yazdÄ±ran program
 			Scanner tara = new Scanner(System.in);
 			String ad, soyad;
-			System.out.print("Adınızı giriniz: ");
+			System.out.print("AdÄ±nÄ±zÄ± giriniz: ");
 			ad = tara.next();
-			System.out.print("Soyadınızı giriniz: ");
+			System.out.print("SoyadÄ±nÄ±zÄ± giriniz: ");
 			soyad = tara.next();
 			tara.close();
-			System.out.print("Baş harfleri: " + ad.charAt(0) + soyad.charAt(0));
+			System.out.print("BaÅŸ harfleri: " + ad.charAt(0) + soyad.charAt(0));
 		}
 	}
 }
