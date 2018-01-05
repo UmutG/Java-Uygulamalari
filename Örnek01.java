@@ -1,13 +1,13 @@
 package ornekler;
 import java.util.Scanner;
-public class Örnek01 {
+public class Ã–rnek01 {
 	public static void main(String[] args)
 	{
-		//Klavyeden 15 sayısı girilene kadar sayıları toplayan program
+		//Klavyeden 15 sayÄ±sÄ± girilene kadar sayÄ±larÄ± toplayan program
 		Scanner tara = new Scanner(System.in);
 		int i=0, top=0;
 		do {
-			System.out.print("Sayıyı giriniz: ");
+			System.out.print("SayÄ±yÄ± giriniz: ");
 			i = tara.nextInt();
 			top += i;
 		}
