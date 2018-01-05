@@ -6,7 +6,7 @@ public class d11 {
 		int a,b;
 		double c=1;
 		Scanner tara = new Scanner(System.in);
-		System.out.print("Sayý giriniz: ");
+		System.out.print("Sayıyı giriniz: ");
 		a = tara.nextInt();
 		System.out.print("Kuvvetini giriniz: ");
 		b = tara.nextInt();
