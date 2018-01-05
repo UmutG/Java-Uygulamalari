@@ -1,13 +1,14 @@
 package ornekler;
 import java.util.Scanner;
-public class Örnek05 {
+public class Ã–rnek05 {
 	public static void main(String[] args) {
+		//Klavyeden girilen bir ifadeyi istenen sayÄ± kadar ekrana yazan program
 		int i;
 		String soyle;
 		Scanner tara = new Scanner(System.in);
-		System.out.print("Neler söylemek istersiniz? : ");
+		System.out.print("Neler sÃ¶ylemek istersiniz? : ");
 		soyle = tara.nextLine();
-		System.out.print("Kaç defa tekrarlansın? : ");
+		System.out.print("KaÃ§ defa tekrarlansÃ½n? : ");
 		i = tara.nextInt();
 		tara.close();
 		for (int j=0; j<i; j++)
