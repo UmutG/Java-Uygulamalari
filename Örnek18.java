@@ -8,6 +8,6 @@ public class Örnek18 {
 		double cel = tara.nextDouble();
 		double fah = (cel*1.8)+32;
 		tara.close();
-		System.out.println(cel + " ℃ = " + fah + "℉");
+		System.out.println(cel + " ℃ = " + fah + " ℉");
 	}
 }
