@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Örnek11 {
 	public static void main(String[] args) {
 		//Girilen cümledeki küçük harfleri büyük harfe dönüştüren program
+		//Biliyorum zahmetli olmuş. Aslında bütün cümleyi büyük yapsamda olurdu :)
 				Scanner tara = new Scanner(System.in);
 				System.out.print("Söz sende: ");
 				String text = tara.nextLine(), buyuk="";
