@@ -13,6 +13,6 @@ public class Örnek01 {
 		}
 		while (i!=15);
 		tara.close();
-		System.out.println("Toplam = " + top);
+		System.out.println("Toplam = " + (top-15));
 	}
 }
