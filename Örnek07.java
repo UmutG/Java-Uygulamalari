@@ -12,7 +12,7 @@ public class Örnek07 {
 		}
 		while(String.valueOf(sayi).length() > 4);
 		tara.close();
-		for(int i=2; i<=sayi/2;i++)
+		for(int i=1; i<=sayi;i++)
 		{
 			if(sayi%i==0)
 			{
