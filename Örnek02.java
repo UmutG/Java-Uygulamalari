@@ -1,23 +1,19 @@
 package ornekler;
 import java.util.Scanner;
-public class Örnek02 {
-	public static boolean sayimi(String s) {
-		    return s.matches("[-+]?\\d*\\.?\\d+");
-		}
+public class Ã–rnek02 {
 	public static void main(String[] args) {
-		//Klavyeden "Dur" yazılmadığı sürece girilen sayıları toplayan program (WORK IN PROGRESS)
+		//Klavyeden "Dur" yazÄ±lmadÄ±ÄŸÄ± sÃ¼rece girilen sayÄ±larÄ± toplayan program
 		Scanner tara = new Scanner(System.in);
 		int i=0, top=0;
-		String dur = null;
+		String dur;
 		do
 		{
-			dur = null;
-			System.out.print("Sayıyı giriniz: ");
-			dur = tara.nextLine();
-			if(sayimi(dur)==false);
-			{
+			System.out.print("SayÄ±yÄ± giriniz (toplamÄ± gÃ¶stermek iÃ§in 'Dur' yazÄ±nÄ±z): ");
+			dur = tara.next();
+			if(dur.equals("Dur"))
+				break;
+			else
 				i = Integer.parseInt(dur);
-			}
 			top += i;
 		}
 		while(dur!="Dur");
