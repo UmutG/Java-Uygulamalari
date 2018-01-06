@@ -1,8 +1,8 @@
 package ornekler;
 
-public class Örnek13 {
+public class Ã–rnek13 {
 	public static void main(String[] args) {
-		//1-1000 arasındaki asal sayıları bulan program
+		//1-1000 arasÄ±ndaki asal sayÄ±larÄ± bulan program
 		int sayi;
         for(int i=2; i<=1000; i++)
         {
