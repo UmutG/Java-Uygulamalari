@@ -12,7 +12,7 @@ public class Örnek30 {
 	}
 	public static void main(String[] args) {
 		//Klavyeden girilen bir kelimenin kaç harf olduğunu gösteren program
-		//UTF-8 desteği olmadığı için Türkçe harflere duyarsız.
+		//Türkçe karakterlere duyarsızdır.
 		Scanner tara = new Scanner(System.in);
 		System.out.print("Mikrofon sende: ");
 		String a = tara.nextLine();
