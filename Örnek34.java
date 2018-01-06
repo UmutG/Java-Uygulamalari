@@ -1,6 +1,6 @@
 package ornekler;
 import java.util.Scanner;
-public class d11 {
+public class Örnek34 {
 	public static void main(String[] args) {
 		//Sayı ve üssünü alıp sonucu yazan program
 		int a,b;
