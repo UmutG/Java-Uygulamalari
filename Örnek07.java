@@ -1,23 +1,22 @@
 package ornekler;
 import java.util.Scanner;
-public class Örnek07 {
+public class Ã–rnek07 {
 	public static void main(String[] args) {
-		//Klavyeden okunan en fazla 4 basamaklý bir pozitif tam sayýnýn çarpanlarýna ayýran program
-		int sayi,say=0;
+		//Klavyeden okunan en fazla 4 basamaklÄ± bir pozitif tam sayÄ±nÄ±n Ã§arpanlarÄ±na ayÄ±ran program
+		int sayi;
 		Scanner tara = new Scanner(System.in);
 		do {
 			sayi=0;
-			System.out.print("En fazla 4 basamaklý sayý giriniz: ");
+			System.out.print("En fazla 4 basamaklÄ± sayÄ± giriniz: ");
 			sayi = tara.nextInt();
 		}
 		while(String.valueOf(sayi).length() > 4);
 		tara.close();
-		for(int i=1; i<=sayi ;i++)
+		for(int i=2; i<=sayi/2;i++)
 		{
 			if(sayi%i==0)
 			{
-				say++;
-				System.out.println((say) + ". çarpan = " + i);
+				System.out.println(i + " x " + (sayi/i) + " = " + sayi);
 			}
 		}
 	}
