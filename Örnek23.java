@@ -2,7 +2,7 @@ package ornekler;
 import java.util.Scanner;
 public class Örnek23 {
 	public static boolean asal(int y) {
-            for(int j=2; j<=y/2; j++)
+            for(int j=2; j<y; j++)
             {
                 if(y%j==0) 
                 return true;
