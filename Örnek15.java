@@ -9,5 +9,4 @@ public class Örnek15 {
 		tara.close();
 		System.out.println(new StringBuilder(text).reverse());
 	}
-
 }
