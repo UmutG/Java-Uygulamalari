@@ -1,7 +1,7 @@
 package ornekler;
-public class Örnek08 {
+public class Ã–rnek08 {
 	public static void main(String[] args){
-		// "*" ile baklava dilimini çýkartan program
+		// "*" ile baklava dilimini Ã§Ä±kartan program
 		for(int i=0;i<5;i++) {
 	        for(int j=1;j<5-i;j++) {
 	             System.out.print(" ");
