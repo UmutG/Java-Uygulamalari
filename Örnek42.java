@@ -2,7 +2,7 @@ package ornekler;
 import java.util.Random;
 public class Örnek42 {
 	public static void main(String[] args) {
-		//Rastgele üretilen 10 sayının en büyüğünü ve en küçüğünü bulan program
+		//Rastgele üretilen 1-999 arasındaki 10 sayının en büyüğünü ve en küçüğünü bulan program
 		int ek=Integer.MAX_VALUE, eb=0;
 		Random rast = new Random();
 		for (int i=1; i<=10; i++)
