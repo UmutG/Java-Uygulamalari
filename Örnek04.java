@@ -2,7 +2,8 @@ package ornekler;
 import java.util.Scanner;
 public class Örnek04 {
 	public static void main(String[] args) {
-		//Klavyeden girilen üç basamaklı sayının rakamları çarpımının, rakamları toplamına bölümünden kalanı bulan program		int sayi, yuzler, onlar, birler;
+		//Klavyeden girilen üç basamaklı sayının rakamları çarpımının, rakamları toplamına bölümünden kalanı bulan program
+		int sayi, yuzler, onlar, birler;
 		Scanner tara = new Scanner(System.in);
 		System.out.print("3 basamaklı sayıyı giriniz: ");
 		sayi = tara.nextInt();
