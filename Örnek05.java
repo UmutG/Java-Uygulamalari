@@ -8,7 +8,7 @@ public class Örnek05 {
 		Scanner tara = new Scanner(System.in);
 		System.out.print("Neler söylemek istersiniz? : ");
 		soyle = tara.nextLine();
-		System.out.print("Kaç defa tekrarlansýn? : ");
+		System.out.print("Kaç defa tekrarlansın? : ");
 		i = tara.nextInt();
 		tara.close();
 		for (int j=0; j<i; j++)
