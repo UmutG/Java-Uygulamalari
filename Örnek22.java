@@ -17,6 +17,8 @@ public class Örnek22 {
 				System.out.print("Tahmininiz doğru. Tutulan sayı = " + rast);
 				break;
 			}
+			else if(i==0)
+				System.out.println("Tahmin hakkınız bitti. Tutulan sayı: " + rast);
 			else if(tahmin>rast)
 				System.out.println("Tahminin sayıdan büyük. Sayıyı düşür.");
 			else if(tahmin<rast)
