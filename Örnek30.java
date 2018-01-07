@@ -17,8 +17,6 @@ public class Örnek30 {
 		System.out.print("Mikrofon sende: ");
 		String a = tara.nextLine();
 		tara.close();
-		System.out.println("Cümlede " + bak(a) + " harf var.");
-		
+		System.out.println("Cümlede " + bak(a) + " harf var.");	
 	}
-
 }
