@@ -23,7 +23,7 @@ public class Go extends JFrame {
     
     public Go() {
         setLayout(new FlowLayout());
-        prompt1JLabel = new JLabel("1-100 arasında sayım var tahmin et.");  
+        prompt1JLabel = new JLabel("1-100 arasÄ±nda sayÄ±m var tahmin et.");  
         add(prompt1JLabel);
         prompt2JLabel = new JLabel("Tahmininiz nedir? :"); 
         add(prompt2JLabel);
@@ -51,7 +51,7 @@ public class Go extends JFrame {
         		messageJLabel.setText("");
         		guessInputJTextField.setEditable(true);
         		tahmin--;
-        		message2JLabel.setText("Oynanan oyun sayısı: " + oyunsayisi);
+        		message2JLabel.setText("Oynanan oyun sayÄ±sÄ±: " + oyunsayisi);
         		oyunsayisi++;
         		tahmin=10;
         		}}
@@ -65,30 +65,30 @@ public class Go extends JFrame {
             Guess = Integer.parseInt(guessInputJTextField.getText());
             getContentPane().setBackground(Color.RED);
             	if (Guess > number){
-            		messageJLabel.setText( "Sayı yüksek." );
+            		messageJLabel.setText("SayÄ± yÃ¼ksek.");
             		SwingUtilities.updateComponentTreeUI(messageJLabel);
             		tahmin--;}
              if(Guess < number){                          
-                     messageJLabel.setText("Sayı düşük" );
+                     messageJLabel.setText("SayÄ± dÃ¼ÅŸÃ¼k");
                      SwingUtilities.updateComponentTreeUI(messageJLabel);
                      tahmin--;
              }
              if (Guess == number)
              {
-            	 messageJLabel.setText("Doğru bildiniz!");
+            	 messageJLabel.setText("DoÄŸru bildiniz!");
             	 SwingUtilities.updateComponentTreeUI(messageJLabel);
             	 getContentPane().setBackground(Color.GREEN);
             	 guessInputJTextField.setEditable(false);
             	 message2JLabel.setText("");}        
              if(tahmin==0){
-            	 message2JLabel.setText("Hakkınız bitti. Yeni oyuna geçiniz."); 
+            	 message2JLabel.setText("HakkÄ±nÄ±z bitti. Yeni oyuna geÃ§iniz."); 
             	 guessInputJTextField.setEditable(false);
             	 }
              else if(Guess==number){
             	 message2JLabel.setText("");  
              }
              else if (tahmin>0){
-            	 message2JLabel.setText(tahmin + " hakkınız kaldı.");  
+            	 message2JLabel.setText(tahmin + " hakkÄ±nÄ±z kaldÄ±.");  
              }  
         }
     }
