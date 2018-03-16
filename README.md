@@ -1,4 +1,4 @@
 # JavaUygulamalar
-**Finale hazırlık:**
-30'dan fazla soruları cevaplarıyla buraya atmaya çalışacağım.
+**:**
+Soruların cevaplarıyla beraber verdiğim uygulamaları buraya atacağım.
 Umarım işinize yarar :)
