@@ -9,7 +9,7 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.SwingUtilities;
-public class Go extends JFrame {
+public class Örnek43Kütüpphane extends JFrame {
     private int oyunsayisi = 1;
     private int number;
     private int tahmin=10;
@@ -21,7 +21,7 @@ public class Go extends JFrame {
     private JLabel random1 = new JLabel();
     private JButton newGameJButton;    
     
-    public Go() {
+    public Örnek43Kütüpphane() {
         setLayout(new FlowLayout());
         prompt1JLabel = new JLabel("1-100 arasında sayım var tahmin et.");  
         add(prompt1JLabel);
@@ -65,11 +65,11 @@ public class Go extends JFrame {
             Guess = Integer.parseInt(guessInputJTextField.getText());
             getContentPane().setBackground(Color.RED);
             	if (Guess > number){
-            		messageJLabel.setText("Sayı yüksek.");
+            		messageJLabel.setText( "Sayı yüksek." );
             		SwingUtilities.updateComponentTreeUI(messageJLabel);
             		tahmin--;}
              if(Guess < number){                          
-                     messageJLabel.setText("Sayı düşük");
+                     messageJLabel.setText("Sayı düşük" );
                      SwingUtilities.updateComponentTreeUI(messageJLabel);
                      tahmin--;
              }
