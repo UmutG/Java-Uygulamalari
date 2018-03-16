@@ -9,7 +9,7 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.SwingUtilities;
-public class Örnek43Kütüpphane extends JFrame {
+public class Örnek43Kütüphane extends JFrame {
     private int oyunsayisi = 1;
     private int number;
     private int tahmin=10;
@@ -21,7 +21,7 @@ public class Örnek43Kütüpphane extends JFrame {
     private JLabel random1 = new JLabel();
     private JButton newGameJButton;    
     
-    public Örnek43Kütüpphane() {
+    public Örnek43Kütüphane() {
         setLayout(new FlowLayout());
         prompt1JLabel = new JLabel("1-100 arasında sayım var tahmin et.");  
         add(prompt1JLabel);
