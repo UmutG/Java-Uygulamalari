@@ -11,14 +11,15 @@ import java.awt.List;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class �rnek44 extends JFrame {
-
+public class Örnek44 extends JFrame {
+//Her butona basıldığında 50 üstü sol tarafa atan, 50 altı sağ tarafa atan, 50'de ise mesaj gösteren program
+//Sayı rastgele 100'e kadar atılıyor.
 	private JPanel contentPane;
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					�rnek44 frame = new �rnek44();
+					Örnek44 frame = new Örnek44();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -27,7 +28,7 @@ public class �rnek44 extends JFrame {
 		});
 	}
 
-	public �rnek44() {
+	public Örnek44() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -40,7 +41,7 @@ public class �rnek44 extends JFrame {
 		List list_1 = new List();
 		contentPane.add(list_1, BorderLayout.EAST);
 		
-		JButton btnSayYaz = new JButton("Say� Yaz");
+		JButton btnSayYaz = new JButton("Sayı Yaz");
 		btnSayYaz.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				Random rast = new Random();
@@ -55,7 +56,7 @@ public class �rnek44 extends JFrame {
 				}
 				else if (a==50)
 				{
-					JOptionPane.showMessageDialog(null, "Say� 50");
+					JOptionPane.showMessageDialog(null, "Sayı 50");
 				}
 			}
 		});
