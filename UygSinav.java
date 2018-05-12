@@ -23,8 +23,8 @@ public class UygSinav extends JFrame {
 	});
 	}
 	public UygSinav() {
-	ArrayList<Double> sayilar = new ArrayList<>();
-	ArrayList<Double> asallar = new ArrayList<>();
+	ArrayList<Integer> sayilar = new ArrayList<>();
+	ArrayList<Integer> asallar = new ArrayList<>();
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	setBounds(100, 100, 150, 100);
 	contentPane = new JPanel();
@@ -33,36 +33,38 @@ public class UygSinav extends JFrame {
 	setContentPane(contentPane);
 	JTextField tf = new JTextField();
 	contentPane.add(tf, BorderLayout.NORTH);
-	JButton btnSayYaz = new JButton("Sayý Yaz");
+	JButton btnSayYaz = new JButton("SayÄ± Yaz");
 	btnSayYaz.addActionListener(new ActionListener() {
 	int top = 0;
 	int a = 0;
 	public void actionPerformed(ActionEvent arg0) {
-		sayilar.add((double)Integer.parseInt(tf.getText()));
+		sayilar.add(Integer.parseInt(tf.getText()));
 		tf.setText(null);
 		a++;
 		if (a==10) {
-			JOptionPane.showMessageDialog(null, ("10 adet sayý alýndý."));
+			JOptionPane.showMessageDialog(null, ("10 adet sayÄ± alÄ±ndÄ±."));
 			Collections.sort(sayilar);
-			for(Double i: sayilar)
+			for(int i: sayilar)
 				top += i;
-				JOptionPane.showMessageDialog(null, "Sýralanmýþ hali:" + sayilar);
-				JOptionPane.showMessageDialog(null, "Minimum sayý: " + Collections.min(sayilar));
-				JOptionPane.showMessageDialog(null, "Maksimum sayý: " + Collections.max(sayilar));
+				JOptionPane.showMessageDialog(null, "SÄ±ralanmÄ±ÅŸ hali:" + sayilar);
+				JOptionPane.showMessageDialog(null, "Minimum sayÄ±: " + Collections.min(sayilar));
+				JOptionPane.showMessageDialog(null, "Maksimum sayÄ±: " + Collections.max(sayilar));
 				JOptionPane.showMessageDialog(null, "Ortalama: " + (top/10));
-				for(double n: sayilar) {
-					for(double d=2; d<=n; d++) {
-					if(n%d==0) {
-						break;
+				for(int n=0; n<=9; n++) {
+					int sayac=0;
+					for(int j=2; j<sayilar.get(n); j++) {
+						if(sayilar.get(n)%j==0)
+							sayac++;
 						}
-					asallar.add(n);
-					break;
-					}
+					if(sayac==0)
+						asallar.add(sayilar.get(n));
 				}
-				JOptionPane.showMessageDialog(null, "Asallar: " + asallar);
+				if(asallar.isEmpty())
+					JOptionPane.showMessageDialog(null, "Asal sayÄ± yok.");
+				else
+					JOptionPane.showMessageDialog(null, "Asallar: " + asallar);
 				}
 			}
-		
 		});
 		contentPane.add(btnSayYaz, BorderLayout.SOUTH);	
 		}
