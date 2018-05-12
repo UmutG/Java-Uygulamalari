@@ -12,8 +12,8 @@ public class UygSinav extends JFrame {
 	EventQueue.invokeLater(new Runnable() {
 	public void run() {
 	try {
-			UygSinav frame = new UygSinav();
-			frame.setVisible(true);
+		UygSinav frame = new UygSinav();
+		frame.setVisible(true);
 			}
 	catch (Exception e) {
 		e.printStackTrace();
