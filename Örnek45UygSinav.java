@@ -7,6 +7,8 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 public class UygSinav extends JFrame {
+	//Girilen 10 adet sayının sıralanmış halini, en küçük ve en büyük sayısını, 
+	//ortalamasını ve asallarını gösteren program.
 	private JPanel contentPane;
 	public static void main(String[] args) {
 	EventQueue.invokeLater(new Runnable() {
